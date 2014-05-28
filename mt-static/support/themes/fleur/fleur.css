@@ -1,0 +1,379 @@
+@import url(base-weblog.css);
+
+/*
+name: Fleur
+designer: J. Maloney
+designer_url: http://www.freshwear.ca
+description: A clean, liquid theme that comes with a variety of different header colors included, plus the psd file that can be
+used to make a custom color.
+layouts: one-column, two-column-left, two-column-right, three-column
+*/
+
+/* NOTES 
+
+- Photoshop brush used - fresh foliage - http://designfruit.com/jasongaylor/blog/?p=37  - with thanks. 
+
+- You can change the look by changing the header color
+- Change    fleurheaderblack.gif   in the style below to any of the following ...
+
+                              fleurheadergrey.gif
+                              fleurheaderblue.gif
+                              fleurheadergreen.gif
+                              fleurheaderred.gif
+*/
+
+
+#banner {
+	background-image:url(fleurheaderblack.gif);
+	}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+body {
+	padding:0;
+	margin:0;
+	background-color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:82%;
+	color:#252525;
+	line-height:1;
+}
+
+a {
+	color:#888;
+	text-decoration:none;
+	}
+
+a:hover {
+	background-color:#EEE;
+	}
+
+p {
+	margin:0 0 15px 0;
+	line-height:1.7;
+	}
+
+/* -------- layout styles -------------*/
+
+#container {
+	width:100%;
+	margin:0;
+	padding:0
+	}
+
+/* ---------- Single Column Styles ----------  */
+
+
+.layout-one-column #alpha {width: 65%; margin-left:10%;}
+
+
+/* ---------- Two Column Left Styles ---------- */
+
+
+.layout-two-column-left #alpha {
+        width:23%;
+	margin:25px 0 0 0;
+	padding:0;
+}
+	
+.layout-two-column-left #beta{
+	width: 56%; 
+        margin:0 0 0 7%;
+}
+
+
+/* ---------- Two Column Right Styles ---------- */
+
+
+.layout-two-column-right #alpha {
+	width:56%;
+	margin:0 7% 0 0;
+	padding:0;
+	}
+	
+.layout-two-column-right #beta {
+	width:23%;
+	margin:25px 0 0 0;
+	padding:0;
+	}
+	
+/* ------------ Three Column Styles -------------*/
+
+.layout-three-column #alpha {
+	width:16%;
+	margin:0 7% 0 0;
+	padding:0;
+       }
+
+.layout-three-column #beta {
+	width:40%;
+	margin:0 7% 0 0;
+	padding:0;
+	}
+
+.layout-three-column #gamma {
+	width:16%;
+	margin:0;
+	padding:0;
+    }
+
+/* -------- banner styles -------------*/
+	
+#banner {
+	height:275px;
+	width:100%;
+	background-repeat:repeat-x;
+	background-position:top left;
+	padding:0;
+	margin:0;
+	text-align:left;
+	}
+
+#banner-inner {
+	margin:0 0 0 45px;
+	}
+		
+h1, h2 {padding:0; margin:0;}
+
+#banner-header {
+	padding:0;
+	margin:0;
+	padding-top:17px;
+	font-size:36px;
+	color:#FFF;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+#banner-header a {
+	text-decoration:none;
+	color:#FFF;
+	}
+	
+#banner-description {
+	padding:3px 0 0 7px;
+	margin:0;
+	font-size:13px;
+	color:#FFF;
+	font-weight:normal;
+	}
+	
+/* -------- page styles -------------*/
+
+#pagebody {
+	margin:0;
+	padding:65px 0 30px 0;
+	background-color:#FFF;
+	text-align:left;
+}
+
+#pagebody-inner {
+	padding:0;
+	margin:0 7%;
+	}
+
+
+/* -------- entry area styles -------------*/
+
+.date-header {
+	font-size:15px;
+	padding:0;
+	margin:0 0 5px 0;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+.entry-header {
+	padding:0;
+	margin:0 0 25px 0;
+	font-size:25px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+.entry-body p {
+	font-size:1em;
+	line-height:1.7;
+	margin:0 0 15px 0;
+	text-align:justify;
+	}
+
+.entry-body ul, ol {
+	line-height:1.7;
+	font-size:.96em;
+	margin-bottom:15px;
+	}
+
+.entry-body blockquote {
+	text-align:justify;
+	padding-left:20px;
+	background-image:url(quote.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+       margin:20px 0 20px 20px;
+	line-height:1.7;
+}
+
+.entry-body img {border: 1px solid #555;}
+.entry-body img[align="right"] {margin: 5px 0 15px 20px; display:block;}
+.entry-body img[align="left"] {margin: 5px 20px 15px 0; display:block;}
+
+.entry-footer {
+	padding:0 0 0 10px;
+	line-height:1.5;	
+	border-left:3px solid #BBB;
+	}
+
+.entry-footer p {
+	margin:10px 0 35px 0;
+	}
+
+.post-footers {
+	display:block;
+	}
+	
+.separator {display:none !important;}
+
+/* -------- sidebar styles -------------*/
+
+.module-header {
+	padding:0;
+	margin:0 0 20px 0;
+	font-size:18px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	}	
+
+.module-header a {
+	color:#252525;
+	}
+
+.module-content {
+	position:relative;
+	line-height:1.4;
+	margin:0 0 25px 0;
+	padding:0;
+	}
+
+.module-content ul {
+	margin: 5px 0 10px 0;
+	line-height:1.4;
+}
+
+.module-content li {
+	line-height:1.4;
+	}
+
+.module-categories module {
+	margin-top:20px;
+	}
+
+.module-categories ul li ul li {
+	margin-left:5px;
+}
+
+input, textarea {
+	font-size: 100%;
+	padding: 2px;
+	margin: 3px 0 3px 0;
+	border: 1px solid #555;
+	background-color:#FFF;
+	color:#555;
+}
+
+textarea {
+ font-size: 1em;
+ color:#555;
+}
+
+input#search {
+    padding:3px;
+}
+
+/* ---------- comment trackback styles ------------------ */
+
+.entry-content,
+.trackbacks-info,
+.trackback-content,
+.comment-content,
+.comments-open-content,
+.comments-closed
+{
+	clear: both;
+	margin: 0;
+}
+
+.trackback-footer,
+.comment-footer,
+.comments-open-footer,
+.archive-content
+{
+	clear: both;
+	margin: 0;
+}
+
+.content-nav {
+	margin-bottom:30px;
+	line-height:1.6;
+	}
+
+.trackbacks-header, .comments-header, .comments-open-header, .trackbacks-open-header {
+	padding:10px 0 0 0;
+	margin:0 0 15px 0;
+	font-size:20px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+.trackbacks, .comments {
+	line-height:1.7;
+	text-align:justify;
+	}
+
+#trackbacks-info {
+    margin:10px 0 25px 0;
+	line-height:1.7;
+	font-size:.95em;
+	font-style:italic;
+	}
+
+.trackback-footer, .comment-footer {
+	margin-bottom:25px;
+	font-size:.96em !important;
+	padding-left:15px;
+	background-image:url(../../arrow.gif);
+	background-repeat: no-repeat;
+	background-position:center left;
+	}
+	
+/* livejournal styles */
+
+.entry-userpic {
+	display:none;  
+}
+
+.banner-user {
+	display:none;
+}
+
+.banner-user-photo {
+	display:none;
+}
+
+.banner-user-photo img {
+	display:none;
+}
+
+.comment-userpic {
+	display:none;
+}
+
+/*  typepad styles */
+
+.typelist-thumbnail img, 
+.module-galleries .typelist-thumbnail img,
+.module-featured-photo img,
+.image-thumbnail img {
+	border:1px solid #333;
+}

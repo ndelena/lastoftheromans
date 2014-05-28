@@ -1,0 +1,37 @@
+/* Movable Type language lexicon for fr localization. */
+
+Lexicon['remove'] = 'retirer';
+Lexicon['Make primary'] = 'Rendre principal';
+Lexicon['Last auto-save at [_1]:[_2]:[_3]'] = 'Dernière sauvegarde automatique à [_1]:[_2]:[_3]';
+Lexicon['Remove'] = 'Retirer';
+Lexicon['Enter email address:'] = 'Saisissez l\'adresse email :';
+Lexicon['Are you certain you want to remove these [_1] roles? By doing so you will be taking away the permissions currently assigned to any users and groups associated with these roles.'] = 'Êtes-vous sûr(e) de vouloir supprimer les rôles [_1] ? Avec cette actions vous allez supprimer les autorisations associées à tous les utilisateurs et groupes liés à ce rôle.';
+Lexicon['You have \<a href=\'[_3]\'\>[quant,_1,entry,entries] from [_2]\<\/a\>'] = 'Vous avez \<a href=\'[_3]\'\>[quant,_1,note,notes] de [_2]\<\/a\>';
+Lexicon['No Preview Available'] = 'Pas de pré-visualisation possible';
+Lexicon['An error occurred while testing for the new tag name.'] = 'Une erreur est survenue en testant la nouvelle balise.';
+Lexicon['[_1]Publish[_2] your site to see these changes take effect.'] = '[_1]Publiez[_2] votre site pour que ces changements soient appliqués.';
+Lexicon['[_1] &ndash; [_2] of [_3]'] = '[_1] &ndash; [_2] de [_3]';
+Lexicon['View uploaded file'] = 'Voir le fichier envoyé';
+Lexicon['Loading...'] = 'Chargement...';
+Lexicon['to mark as spam'] = 'pour classer comme spam';
+Lexicon['Auto-saving...'] = 'Sauvegarde automatique...';
+Lexicon['You can only act upon a minimum of [_1] [_2].'] = 'Vous ne pouvez agir que sur un minimum de [_1] [_2].';
+Lexicon['Are you certain you want to remove this role? By doing so you will be taking away the permissions currently assigned to any users and groups associated with this role.'] = 'Êtes-vous sûr(e) de vouloir supprimer ce rôle. En faisant cela vous allez supprimer les autorisations de tous les utilisateurs et groupes associés à ce rôle.';
+Lexicon['Are you sure you want to [_3] the [_1] selected [_2]?'] = 'Êtes-vous sûr(e) de vouloir [_3] les [_1] [_2] sélectionné(e)s?';
+Lexicon['delete'] = 'supprimer';
+Lexicon['You did not select any [_1] to [_2].'] = 'Vous n\'avez pas sélectionné de [_1] à [_2].';
+Lexicon['to remove spam status'] = 'pour retirer le statut de spam';
+Lexicon['Enter URL:'] = 'Saisissez l\'URL :';
+Lexicon['The tag \'[_2]\' already exists. Are you sure you want to merge \'[_1]\' with \'[_2]\' across all blogs?'] = 'Le tag \'[_2]\' existe déjà. Êtes-vous sûr de vouloir fusionner \'[_1]\' et \'[_2]\' sur tous les blogs ?';
+Lexicon['None selected'] = 'Aucune sélectionnée';
+Lexicon['You have \<a href=\'[_3]\'\>[quant,_1,comment,comments] from [_2]\<\/a\>'] = 'Vous avez \<a href=\'[_3]\'\>[quant,_1,commentaire,commentaires] de [_2]\<\/a\>';
+Lexicon['You must select an action.'] = 'Vous devez sélectionner une action.';
+Lexicon['You did not select any [_1] [_2].'] = 'Vous n\'avez pas sélectionné de [_1] [_2].';
+Lexicon['disable'] = 'désactiver';
+Lexicon['The tag \'[_2]\' already exists. Are you sure you want to merge \'[_1]\' with \'[_2]\'?'] = 'Le tag \'[_2]\' existe déjà. Êtes-vous sûr(e) de vouloir fusionner \'[_1]\' avec \'[_2]\'?';
+Lexicon['enable'] = 'activer';
+Lexicon['You can only act upon a maximum of [_1] [_2].'] = 'Vous ne pouvez agir que sur un maximum de [_1] [_2].';
+Lexicon['(None)'] = '(Aucun)';
+Lexicon['Close'] = 'Fermer';
+Lexicon['The tag \'[_2]\' already exists. Are you sure you want to merge \'[_1]\' with \'[_2]\' across all weblogs?'] = 'Le tag \'[_2]\' existe déjà. Êtes-vous sûr(e) de vouloir fusionner \'[_1]\' avec \'[_2]\' sur tous les blogs?';
+Lexicon['Are you sure you want to [_2] this [_1]?'] = 'Êtes-vous sûr(e) de vouloir [_2] : [_1]?';
